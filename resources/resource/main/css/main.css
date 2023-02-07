@@ -69,11 +69,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: "ubuntu";
-    src: url("../../../files/system/font/ubuntu.ttf");
-}
-
 section {
     position: relative;
     width: 100%;
@@ -153,7 +148,7 @@ body.no-scroll {
 }
 
 .site-head {
-    font-family: 'ubuntu';
+    font-family: 'consolas';
     width: 100px;
     flex-direction: column;
     display: flex;
@@ -830,7 +825,7 @@ body.no-scroll {
 /*category ==========================*/
 
 .cat-head {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     padding-left: 15px;
     width: 36%;
 }
@@ -868,7 +863,7 @@ body.no-scroll {
     background: #22242A;
     color: #fff;
     display: flex;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 17px;
     padding: 10px 10px;
     transition: all .2s linear;
@@ -948,7 +943,7 @@ body.no-scroll {
     align-items: center;
     background: #22242A;
     display: flex;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     justify-content: space-between;
     padding: 0px 10px;
     position: relative;
@@ -973,7 +968,7 @@ body.no-scroll {
 }
 
 .cat-link {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 15px;
     padding: 10px 0px;
     width: 100%;
@@ -1129,7 +1124,7 @@ body.no-scroll {
 
 .cat-under {
     color: rgb(255, 255, 255) !important;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     margin-bottom: 10px;
     padding-left: 15px;
     width: 30%;
@@ -1260,7 +1255,7 @@ input[type='file'] {
 .footer{
     margin: 0 auto;
     max-width: 2500px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     height: 400px;
     overflow-x: hidden;
     overflow: scroll;
@@ -1349,7 +1344,7 @@ input[type='file'] {
     padding: 0 15px;
     transition: all .3s linear;
     word-spacing: 1px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .footer-brand-right:hover {
@@ -1819,7 +1814,7 @@ input[type='file'] {
 
 .about-page-under-list a {
     font-size: 18px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     color: #8ac832 !important;
     padding: 5px 0px;
 }
@@ -2129,7 +2124,7 @@ input[type='file'] {
     justify-content: center;
     font-size: 15px;
     line-height: 17px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     color: #FF1493 !important;
 }
 
@@ -2250,7 +2245,7 @@ input[type='file'] {
 .chat-header {
     margin-top: 30px;
     color: rgb(255, 255, 255) !important;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     margin-bottom: 10px;
     padding-left: 15px;
     width: 100%;
@@ -2434,7 +2429,7 @@ input[type='file'] {
 }
 
 .chat-container-box-inner span:nth-child(2) {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .chat-container-msg {
@@ -2468,7 +2463,7 @@ input[type='file'] {
     /*background: -webkit-linear-gradient(#F4FF00, #FF0000);*/
     /*-webkit-text-fill-color: transparent;*/
     /*-webkit-background-clip: text;*/
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-weight: bold;
     font-size: 30px;
     word-spacing: 5px;
@@ -2485,7 +2480,7 @@ input[type='file'] {
 .container-footer-page-box span {
     font-weight: bold;
     /*background: -webkit-linear-gradient(#F4FF00, #FF0000);*/
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     /*-webkit-text-fill-color: transparent;*/
     /*-webkit-background-clip: text;*/
     font-size: 25px;
@@ -2645,7 +2640,7 @@ input[type='file'] {
     -webkit-transition: .3s all;
     -o-transition: .3s all;
     transition: .3s all;
-    font-family: ubuntu;
+    font-family: consolas;
 }
 
 .card_button_group a:hover{
@@ -2694,13 +2689,12 @@ input[type='file'] {
 
 .card_title {
     background: -webkit-linear-gradient(#F4FF00, #FF0000);
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 16px;
 }
-
 
 
 .cardcat {
@@ -2764,7 +2758,7 @@ input[type='file'] {
 .card-text span{
     color: #88919D;
     line-height: 15px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .card-content-footer-category {
@@ -2913,7 +2907,7 @@ input[type='file'] {
 
 .category-content .post-content-title {
     background: -webkit-linear-gradient(#F4FF00, #FF0000);
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: bold;
@@ -2936,7 +2930,7 @@ input[type='file'] {
 }
 
 .category-content .post-content-category-count span {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 20px;
     color: #8ac832;
 }
@@ -2971,7 +2965,7 @@ input[type='file'] {
 .pvotedate {
     display: flex;
     justify-content: space-between;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     color: #20B2AA !important;
 }
 
@@ -2980,7 +2974,7 @@ input[type='file'] {
     text-align: center;
     font-size: 20px;
     line-height: 17px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .pvotesbox {
@@ -3066,7 +3060,7 @@ input[type='file'] {
 
 .pvote-main-title {
     color: rgb(255, 255, 255) !important;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 30px;
     letter-spacing: -.5px;
 }
@@ -3192,7 +3186,7 @@ div[countdown] {
 }
 
 .profile-content .profile-content-title {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 30px;
     color: #8ac832;
 }
@@ -3212,7 +3206,7 @@ div[countdown] {
 }
 
 .profile-content .profile-content-category-count span {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 20px;
     color: #8ac832;
     margin: 0px 2px;
@@ -3365,7 +3359,7 @@ div[countdown] {
     background: #0D0F10 !important;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     margin-top: 3px;
 }
 
@@ -3422,7 +3416,7 @@ div[countdown] {
     padding: 6.5px;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .postcontainerup span img {
@@ -3439,7 +3433,7 @@ div[countdown] {
     padding: 15px;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .post_head span img{
@@ -3494,7 +3488,7 @@ div[countdown] {
 
 .post-content-title {
     background: -webkit-linear-gradient(#F4FF00, #FF0000);
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: bold;
@@ -3513,7 +3507,7 @@ div[countdown] {
 }
 
 .post-content-info-box .post-content-info-date span {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 14px;
 }
 
@@ -3557,7 +3551,7 @@ div[countdown] {
 }
 
 .post-info-text-box span:nth-child(1) {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     color: #D1D1D1;
     font-size: 18px;
 }
@@ -3664,7 +3658,7 @@ div[countdown] {
     padding: 15px;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .post-content-down-up span img {
@@ -3748,7 +3742,7 @@ div[countdown] {
     justify-content: center;
     align-items: flex-start;
     font-weight: bold;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     border-radius: 0px 10px 10px 0px;
     background-color: none;
     color: #fff;
@@ -3772,7 +3766,7 @@ div[countdown] {
     padding: 15px;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .post-content-down-link span img {
@@ -3801,7 +3795,7 @@ div[countdown] {
 
 .post-content-down-link-under tr th {
     font-weight: bold;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     color: silver;
 }
 
@@ -4018,7 +4012,7 @@ div[countdown] {
     padding: 15px;
     font-size: 20px;
     color: #fff;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .post-content-down-similar span img {
@@ -4383,7 +4377,7 @@ div[countdown] {
 
 #paginator .title_box span {
     font-weight: bold;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'consolas', sans-serif;
     font-size: 25px;
 }
 
