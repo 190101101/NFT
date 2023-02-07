@@ -2576,13 +2576,10 @@ input[type='file'] {
     display: flex;
 }
 
-.card_head_info .box:nth-child(2){
-    width: 30%;
+.card_head_info .box{
+    width: 50%;
 }
 
-.card_head_info .box:nth-child(3){
-    width: 45%;
-}
 
 .card_head_info .box:nth-child(2),
 .card_head_info .box:nth-child(3){
